@@ -517,8 +517,10 @@ body.section-show .transition-mask:before{
 	text-transform:lowercase;
 }
 .front-person-titles > .t1{
-	left:5px;
+	left:0px;
 	bottom:0;
+    text-transform: uppercase;
+    font-weight: bold;
 	-webkit-transform:rotate(-90deg) translateY(-100%);
 	-moz-transform:rotate(-90deg) translateY(-100%);
 	-ms-transform:rotate(-90deg) translateY(-100%);
@@ -531,8 +533,10 @@ body.section-show .transition-mask:before{
 	transform-origin:0% 0%;
 }
 .front-person-titles > .t2{
-	top:5px;
+	top:0px;
 	left:0;
+    text-transform: uppercase;
+    font-weight: bold;
 	-webkit-transform:translateY(-100%);
 	-moz-transform:translateY(-100%);
 	-ms-transform:translateY(-100%);
@@ -541,7 +545,9 @@ body.section-show .transition-mask:before{
 }
 .front-person-titles > .t3{
 	left:0;
-	bottom:5px;
+	bottom:0px;
+    text-transform: uppercase;
+    font-weight: bold;
 	-webkit-transform:translateY(100%) rotate(180deg);
 	-moz-transform:translateY(100%) rotate(180deg);
 	-ms-transform:translateY(100%) rotate(180deg);
@@ -625,7 +631,7 @@ body.section-show .transition-mask:before{
 	display:none;
 }
 .front-person-links > ul > li > a:hover{
-	color:#B7A389;
+	color:red;
 }
 .front-person-links > ul > li > a:hover:after,
 .front-person-links > ul > li > a:hover:before{
