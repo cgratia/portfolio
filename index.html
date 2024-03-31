@@ -59,39 +59,19 @@
 					<div class='transition-mask' ></div>
 					
 					
-			 		<div class='front-person-img' >
-						
+                    <div class="entete">
 						<!--person's image-->
-						<img src="img/pro%20sourire.JPG" alt="" >
-						<!--/person's image-->
-						
-					</div>
-					
-					<!--person's titles-->
-					<div class='front-person-titles' >
-						
-						<!--title1-->
-						<span class='t1' >
-				        Agent d'accueil
-						</span>
-						<!--/title1-->
-						
-						<!--title2-->
-						<span class='t2' >
-							Pizzaïolo
-						</span>
-						<!--/title2-->
-						
-						<!--title3-->
-						<span class='t3' >
-                        Étudiant
-						</span>
-						<!--/title3-->
-						
-					</div>
-					<!--/person's titles-->
-					
-					<nav class='front-person-links' >
+						<div class="entete-img">
+                            <img src="img/pro%20sourire.JPG" alt="" >
+                        </div>
+                        
+                        <div class="entete-text">
+                            <div>
+                                <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                                <div class="typed-text d-none">Agent d'accueil, Pizzaïolo, Étudiant</div>
+                                </div>
+                           
+                            <nav class='front-person-links' >
 						
 						<!--
 							navigation links, data-section attribute points towards the section with id to be opened. 
@@ -118,6 +98,8 @@
 						</ul>
 						
 					</nav>
+                        </div>
+                    </div>
 					
 					
 					
@@ -126,14 +108,8 @@
 						<h2>
 							GRATIA Clément
 						</h2>
-						
-					
-						
 					</div>
-					
-					
 				</div>
-				
 			</section>
 			<!--=============================================================================
 				/Front Section
@@ -550,20 +526,20 @@
 									<a href='#' data-group='all' class='active' >Tout</a>
 								</li>
 								<li>
-									<a href='#' data-group='web' >Scolaire</a>
+									<a href='#' data-group='scolaire' >Scolaire</a>
 								</li>
 								<li>
-									<a href='#' data-group='tech' >Extra-Scolaire</a>
+									<a href='#' data-group='extra' >Extra-Scolaire</a>
 								</li>
 								<li>
-									<a href='#' data-group='photography' >Loisirs</a>
+									<a href='#' data-group='loisirs' >Loisirs</a>
 								</li>
 							</ul>
 						</div>
 						
 						<div id='portfolio-grid' class='portfolio-items' >
 							
-							<div class='item' data-groups='["all","web","photography"]' >
+							<div class='item' data-groups='["all","scolaire"]' >
 								<div class='inner' >
 									
 									<img src='img/portfolio/Infographie_M%C3%A9t%C3%A9o.jpg' alt="">
@@ -593,7 +569,7 @@
 								</div>
 							</div>
 							
-							<div class='item' data-groups='["all","photography","tech"]' >
+							<div class='item' data-groups='["all","scolaire"]' >
 								<div class='inner' >
 									
 									<img alt='symp' src='img/portfolio/brenda2.png' >
@@ -602,7 +578,7 @@
 										
 										<div class='caption-inner' >
 										
-											<h4>Site Web sur Brenda Laurel</h4>
+											<h4>Site Web en HTML</h4>
 											
 											<ul class='links' >
 												
@@ -628,7 +604,7 @@
 								</div>
 							</div>
 							
-							<div class='item' data-groups='["all","web","tech"]' >
+							<div class='item' data-groups='["all","scolaire"]' >
 								<div class='inner' >
 									
 									<img alt='symp' src='img/portfolio/sparql-logo-scaled.jpg' >
@@ -663,7 +639,7 @@
 								</div>
 							</div>
 							
-							<div class='item' data-groups='["all","web"]' >
+							<div class='item' data-groups='["all","scolaire"]' >
 								<div class='inner' >
 									
 									<img alt='symp' src='img/sitecuisi.jpeg' >
@@ -698,7 +674,7 @@
 								</div>
 							</div>
 							
-							<div class='item' data-groups='["all","tech"]' >
+							<div class='item' data-groups='["all","scolaire"]' >
 								<div class='inner' >
 									
 									<img alt='symp' src='img/1er%20page.png' >
@@ -1259,6 +1235,7 @@
 		===============================================================================-->
 		<script src='js/jquery.min.js' ></script>
 		<script src='js/jquery.stellar.min.js' ></script>
+        <script src="js/typed.min.js"></script>
 		<script src='js/modernizr.js' ></script>
 		<script src='js/owl.carousel.min.js' ></script>
 		<script src='js/jquery.shuffle.min.js' ></script>
