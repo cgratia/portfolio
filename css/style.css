@@ -93,7 +93,6 @@ body.section-show .close-btn{
 	position:fixed;
 	height:64px;
 	width:64px;
-	cursor:pointer;
 	display:block;
 	top:18px;
 	right:18px;
@@ -554,23 +553,7 @@ body.section-show .transition-mask:before{
 	-o-transform:translateY(100%) rotate(180deg);
 	transform:translateY(100%) rotate(180deg);
 }
-
-
-.front-person-links{
-    /*
-	margin:auto;
-	width:550px;
-	height:500px;
-	margin-top:-500px;
-	z-index:25;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-ms-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
-	position:relative;
-    */
-}
+    
 
 .front-person-links > ul > li{
 	display:block;
@@ -578,21 +561,6 @@ body.section-show .transition-mask:before{
 .front-person-links > ul{
 	font-size:0;
 	z-index:99;
-	/*position:absolute;
-	text-align:left;
-	white-space:nowrap;
-	left:100%;
-	top:50%;
-	-webkit-transform:translateY(-50%);
-	-moz-transform:translateY(-50%);
-	-ms-transform:translateY(-50%);
-	-o-transform:translateY(-50%);
-	transform:translateY(-50%);
-	margin:0;
-	padding:0;
-	list-style:none;
-	margin-left:-15px;
-    */
 }
 .front-person-links > ul > li > a{
 	font-weight:bold;
